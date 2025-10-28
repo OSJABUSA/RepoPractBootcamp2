@@ -31,5 +31,10 @@ public class Practicante {
          this.horasPorSemana = horasPorSemana;
      }
 
+     @Override
+     public String toString() {
+        return "Practicante [universidad=" + universidad + ", horasPorSemana=" + horasPorSemana + "]";
+     }
+
     
 }
